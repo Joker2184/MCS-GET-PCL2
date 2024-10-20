@@ -3,7 +3,7 @@ addEventListener('fetch', event => {
 });
 
 async function handleRequest(request) {
-  const serverIP = 'mc.hypixel.net';  // 替换为你的服务器IP
+  const serverIP = 'mss.medicineking.top';  // 替换为你的服务器IP
 
   try {
     const serverInfo = await getServerInfo(serverIP);
