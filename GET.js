@@ -21,7 +21,7 @@ async function handleRequest(request) {
 
 // 获取 Minecraft 服务器信息
 async function getServerInfo(ip) {
-  const apiUrl = `https:///2/${ip}`;
+  const apiUrl = `https://api.mcsrvstat.us/2/${ip}`;
 
   const response = await fetch(apiUrl);
   if (!response.ok) {
